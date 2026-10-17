@@ -21,7 +21,7 @@ export default defineConfig({
   webServer: [
     {
       command: 'npm run dev',
-      cwd: '../api',
+      cwd: '../backend',
       url: 'http://localhost:3000/health',
       reuseExistingServer: true,
       timeout: 120000,
